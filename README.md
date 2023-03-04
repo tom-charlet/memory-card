@@ -12,7 +12,7 @@ Pour installer ce jeu, suivre la procédure suivante :
 
 ## A noter
 
-Ce projet est un projet de cours collaboratif réalisé dans le cadre de travaux pratiques.
+Ce projet est un projet de cours collaboratif réalisé dans le cadre de travaux pratiques. <br>
 La partie affichage des scores n'a pas été finalisée.
 
 Membres du projet :
