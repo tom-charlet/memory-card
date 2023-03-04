@@ -1,0 +1,36 @@
+<%- include('header'); %>
+
+    <body>
+        <div class="container">
+            <div class="head">
+                <h1>Results</h1>
+            </div>
+            <table>
+                <tr>
+                    <td>#1</td>
+                    <td>
+                        <%=game.pseudo%>
+                    </td>
+                    <td>
+                        <%=game.coups%>
+                    </td>
+                    <td>
+                        <%=game.temps%>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#2</td>
+                    <td>Pseudo 2</td>
+                    <td>Coup 2</td>
+                </tr>
+                <tr>
+                    <td>#3</td>
+                    <td>Pseudo 3</td>
+                    <td>Coup 3</td>
+                </tr>
+            </table>
+            <a href="login">Play again</a>
+
+        </div>
+    </body>
+    <%- include('footer'); %>

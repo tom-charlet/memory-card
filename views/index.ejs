@@ -1,0 +1,101 @@
+<%- include('header'); %>
+
+    <div class="container" id="game">
+        <div class="head">
+            <h1>Memory Game</h1>
+            <div class="score">
+                <p id="pseudo">
+                    <%=pseudo%>
+                </p>
+                <div>
+                    <p>Coups :</p>
+                    <p id="coups">0</p>
+                </div>
+            </div>
+            <div id="time">00:30</div>
+        </div>
+        <div class="grid">
+            <div class="card" data-index="1">
+                <span>
+                    <p>🍑</p>
+                </span>
+            </div>
+            <div class="card" data-index="1">
+                <span>
+                    <p>🍑</p>
+                </span>
+            </div>
+            <div class="card" data-index="2">
+                <span>
+                    <p>🍊</p>
+                </span>
+            </div>
+            <div class="card" data-index="2">
+                <span>
+                    <p>🍊</p>
+                </span>
+            </div>
+            <div class="card" data-index="3">
+                <span>
+                    <p>🍒</p>
+                </span>
+            </div>
+            <div class="card" data-index="3">
+                <span>
+                    <p>🍒</p>
+                </span>
+            </div>
+            <div class="card" data-index="4">
+                <span>
+                    <p>🍋</p>
+                </span>
+            </div>
+            <div class="card" data-index="4">
+                <span>
+                    <p>🍋</p>
+                </span>
+            </div>
+            <div class="card" data-index="5">
+                <span>
+                    <p>🍌</p>
+                </span>
+            </div>
+            <div class="card" data-index="5">
+                <span>
+                    <p>🍌</p>
+                </span>
+            </div>
+            <div class="card" data-index="6">
+                <span>
+                    <p>🍉</p>
+                </span>
+            </div>
+            <div class="card" data-index="6">
+                <span>
+                    <p>🍉</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="end">
+        <div class="container">
+            <h1>Memory Game</h1>
+            <div class="container-form">
+                <h2 id="endText">Partie en cours...</h2>
+                <div>
+                    <p id="endCoups">Partie en cours...</p>
+                    <p id="endTemps">Partie en cours...</p>
+                </div>
+                <form method="post">
+                    <input type="hidden" name="pseudo" id="inputPseudo" value="">
+                    <input type="hidden" name="coups" id="inputCoups" value="">
+                    <input type="hidden" name="temps" id="inputTemps" value="">
+                    <input type="submit" value="Tableau des scores">
+                </form>
+                <a class="button-alt" href="/">Rejouer !</a>
+            </div>
+        </div>
+    </div>
+
+    <%- include('footer'); %>
